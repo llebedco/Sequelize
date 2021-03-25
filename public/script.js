@@ -1,5 +1,5 @@
  async function fetchMeals() {
-  const meals = await fetch('/apiRoutes');
+  const meals = await fetch('/api');
   const data = await meals.json();
   return data;
 }
