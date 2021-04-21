@@ -7,28 +7,54 @@
     <title>Larisa Lebedco Set Up A Back End </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
-    <div>
-        <h1>Larisa Lebedco's W8</h1>
-    </div>
+    <h1 class="has-text-centered is-size-1">W10 - Charts and Data</h1>
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <table class="table" id="meals"></table>
     <section class="section">
         <div class="container">
-            <span class="is-size-5">UMD Dinning Hall</span>
             <br>
             <div class="table-container">
                 <table class="table is-bordered is-striped is-hoverable is-fullwidth">
                     <thead>
                         <tr>
-                            <th>Hall name</th>
-                            <th>Address</th>
+                            <th>
+                                <title="Meal">Meal Id
+                            </th>
+                            <th>
+                                <title="Name">Name
+                            </th>
+                            <th>
+                                <title="Calories">Calories
+                            </th>
+                            <th>
+                                <title="Carbs">Carbs
+                            </th>
+                            <th>
+                                <title="Sodium">Sodium
+                            </th>
+                            <th>
+                                <title="Protein">Protein
+                            </th>
+                            <th>
+                                <title="Fat">Fat
+                            </th>
+                            <th>
+                                <title="Cholesterol"> Cholesterol
+                            </th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="target">
                     </tbody>
                 </table>
             </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"
+        integrity="sha512-FJ2OYvUIXUqCcPf1stu+oTBlhn54W0UisZB/TNrZaVMHHhYvLBV9jMbvJYtvDe5x/WVaoXZ6KB+Uqe5hT2vlyA=="
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 
